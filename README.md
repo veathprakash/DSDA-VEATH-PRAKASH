@@ -1,6 +1,6 @@
 ##  DSDA-VEATH-PRAKASH
 
-# Project Description: Christmas Sales Ad Trends Analysis
+# Project Description: Christmas Sales And Trends Analysis
 
 This data analytics project aims to analyze the effectiveness of advertising trends during the Christmas season. By leveraging tools such as Excel, MySQL, and Power BI, the project will identify patterns, insights, and actionable recommendations to optimize sales performance during this critical shopping period. Key objectives include:
 
