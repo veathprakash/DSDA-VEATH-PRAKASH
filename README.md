@@ -24,13 +24,34 @@ Step 3: Save the cleaned data in .xlsx format for further use.
 * 2. Database Setup (Using MySQL)
 
 Step 1: Install and configure MySQL Workbench.
-
 Step 2: Create a new database named christmas_sales.
-
 Step 3: Create the following tables based on your dataset:
-
-sales_data: Contains columns like sale_id, product_id, customer_id, sale_date, sales_amount, etc.
-
-ad_performance: Contains columns like ad_id, platform, impressions, clicks, conversions, etc.
-
+sales_data: Contains columns like store_id, product_id, customer_id,date, total_price, etc.
 customer_info: Contains columns like customer_id, age_group, gender, location, etc.
+Step 4: Import the cleaned Excel data into the respective MySQL tables using the "Import Wizard."
+
+* 3. Data Analysis and Visualization (Using Power BI)
+
+Step 1: Connect Power BI to the MySQL database.
+Go to "Home > Get Data > MySQL database" and enter your server credentials.
+Step 2: Load relevant tables into Power BI.
+Step 3: Perform the following transformations and cleaning the data:
+Replace the blank cells with null values.
+Check the data types of each and every attributes
+Replace the null values with fill up or fill down 
+Step 4: Develop visualizations:
+A time-series chart showing sales trends during the Christmas season over the years.
+A bar chart comparing the effectiveness of different Products by price.
+A piechart  of Category wise percentage demographics and their purchase behaviors.
+
+* 4. Insights and Reporting
+
+Summarize key findings in Power BI dashboards.
+Export dashboards as interactive reports or presentations for stakeholders.
+
+* Deliverables
+
+Cleaned and preprocessed datasets in Excel.
+Structured database with tables in MySQL.
+Interactive Power BI dashboard showcasing trends and actionable insights.
+
