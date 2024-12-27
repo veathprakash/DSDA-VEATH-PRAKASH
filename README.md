@@ -13,10 +13,24 @@ Demographic Insights: Analyzing which customer segments respond most effectively
 Forecasting Future Trends: Using historical data to predict future ad performance.
 
 # Set-up Instructions:- 
-1. Data Preparation (Using Excel)
+* 1. Data Preparation (Using Excel)
 
 Step 1: Gather raw data, such as sales figures, ad performance metrics, customer demographics, and historical trends.
 Step 2: Clean and preprocess the data by:
 Removing duplicates and blank entries.Formatting date columns uniformly (e.g., YYYY-MM-DD).
 Standardizing column headers for consistency.
 Step 3: Save the cleaned data in .xlsx format for further use.
+
+* 2. Database Setup (Using MySQL)
+
+Step 1: Install and configure MySQL Workbench.
+
+Step 2: Create a new database named christmas_sales.
+
+Step 3: Create the following tables based on your dataset:
+
+sales_data: Contains columns like sale_id, product_id, customer_id, sale_date, sales_amount, etc.
+
+ad_performance: Contains columns like ad_id, platform, impressions, clicks, conversions, etc.
+
+customer_info: Contains columns like customer_id, age_group, gender, location, etc.
