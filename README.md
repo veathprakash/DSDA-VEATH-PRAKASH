@@ -11,3 +11,12 @@ Sales Performance Analysis: Measuring the impact of different ad strategies on o
 Demographic Insights: Analyzing which customer segments respond most effectively to Christmas advertising.
 
 Forecasting Future Trends: Using historical data to predict future ad performance.
+
+# Set-up Instructions:- 
+1. Data Preparation (Using Excel)
+
+Step 1: Gather raw data, such as sales figures, ad performance metrics, customer demographics, and historical trends.
+Step 2: Clean and preprocess the data by:
+Removing duplicates and blank entries.Formatting date columns uniformly (e.g., YYYY-MM-DD).
+Standardizing column headers for consistency.
+Step 3: Save the cleaned data in .xlsx format for further use.
